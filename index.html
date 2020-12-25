@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matsnev Nikita M33091</title>
+    <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="index.js" />
+    <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+    <script src="https://yastatic.net/share2/share.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Nerko One"
+    />
+  </head>
+  <body>
+    <header>
+      <aside>
+        <img
+          height="150"
+          width="150"
+          src="https://shubki.info/uploads/posts/2013-04/1367256727_vyhuhol-2.jpg"
+          alt="Profile photo"
+        />
+      </aside>
+      <h1>Nikita Matsnev &#134;</h1>
+    </header>
+    <main>
+      <h2>About me</h2>
+
+      <div class="el">
+        <p><b>Edu:</b> IFMO student</p>
+      </div>
+      <div class="el">
+        <p><b>Born:</b> <time datetime="2000-02-14 22:00">May 22</time></p>
+      </div>
+      <div class="el">
+        <p><b>Language:</b> Russian, English</p>
+      </div>
+
+      <div class="el">
+        <p><b>Hobbies:</b> Track&Field</p>
+      </div>
+      <div class="el">
+        <p>
+          <b>Favorite quotes:</b> <q class="q">Lorem ipsum dolor sit amet</q>
+        </p>
+      </div>
+      <div class="el">
+        <p><b>Programming language:</b> JavaScript</p>
+      </div>
+      <div>
+        <article>
+          <b>Success:</b>
+          <ul>
+            <li>Wake up</li>
+            <li>Begin day</li>
+            <li>Done lab</li>
+          </ul>
+          <b>Failures:</b>
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </article>
+      </div>
+      <div class="container">
+        <section class="photo_gallery">
+          <img class="photo_gallery__main" src="img/gallery1.png" />
+          <nav class="photo_gallery__thumbnails">
+            <img class="photo_gallery__thumbnail" src="img/gallery1.png" />
+            <img class="photo_gallery__thumbnail" src="img/gallery2.png" />
+            <img class="photo_gallery__thumbnail" src="img/gallery3.png" />
+          </nav>
+        </section>
+      </div>
+      <div class="popup">
+        <div class="popup-content">
+          <span class="button__close">X</span>
+          <h2>Hello</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </div>
+      </div>
+
+      <section class="chat-popup" id="myForm">
+        <form class="form-container">
+          <label for="msg"><b>Чат</b></label>
+          <div class="chat_window" id="chat">
+            <template class="msg" id="msg_tmpl">
+              <div class="msg_send">
+                <div class="info_msg">
+                  <p class="msg_who"></p>
+                  <i class="msg_delete"> X </i>
+                </div>
+                <div class="msg">
+                  <p class="msg_txt"></p>
+                </div>
+              </div>
+            </template>
+          </div>
+          <input type="text" name="" id="chat_input" placeholder="text" />
+          <button type="button" id="chat_btn" class="btn">Отправить</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div
+        class="ya-share2"
+        data-services="vkontakte,facebook,twitter,telegram"
+      ></div>
+      <h4 class="post"><a class="button__open">Click me</a></h4>
+    </footer>
+  </body>
+</html>
